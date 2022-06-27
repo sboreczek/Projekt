@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">    
+    <title>PWA serwis</title>
+    <meta name="theme-color" content="#c66335">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <header>
+        <h1>Strona gdzie można zobaczyć zdjęcia piesków oraz pogodę</h1>
+    </header>
+    <main>
+        <div class="dog">
+            <h3 class="miasto"></h3>
+                <input type="text" placeholder="wpisz nazwę miasta">
+                <button>Sprawdź pogodę!</button>
+                <p class="error"></p>
+                <img src="" alt="">
+        </div>
+        <div class="dog">
+            <p>Pogoda <span class="pogoda"></span></p>
+            <p>Temperatura <span class="temperatura"></span></p>
+            <p>Wilgotność <span class="wilgotnosc"></span></p>
+            <p>Ciśnienie <span class="cisnienie"></span></p>
+        </div>
+        <div class="dog">
+        <div class="img1"></div>
+        <h3>Dlaczego pies to najlepszy przyjaciel człowieka?</h3>
+         <div class="ol">
+            <li>Kocha Cię bezwarunkowo</li>
+            <li>Nikt tak jak on nie cieszy się na Twój widok</li>
+            <li>Przebywanie z nim rozładowuje stres i napięcie</li>
+            <li>Doskonale odczytuje Twój nastrój</li>
+            <li>Pies dba o Twoje zdrowie i kondycję</li>
+            <li>Pomaga Ci nawiązywać nowe znajomości</li>
+            <li>Jest niewyczerpanym źródłem rozrywki</li>
+         </div>     
+        </div>
+        <div class="dog">
+            <div class="img2"></div>
+            <div class="img3"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Projekt PWA - WSB 2022</p>
+    </footer>
+    <script src="generate-sw.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

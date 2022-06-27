@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d1a252;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2020/10/21/15/05/dog-5673384_1280.jpg');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+.header h1{
+    margin: 0 0 10px 0;
+}
+
+.header select{
+font-size: 1rem;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.18);
+    height: 80vh;
+    text-align: center;
+    line-height: 80vh;
+    font-size: 38px;
+    color: black;
+    text-shadow: white 0px 0px 2px;
+}
+
+footer {
+    padding: 40px;
+    background-color: #31230e;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    background-color: #31230e;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.img1 {
+    background-image: url('https://iheartdogs.com/wp-content/uploads/2022/03/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzUyNjM0LWltYWdlLWt3dnk4bHg3LmpwZw.webp');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 200px;
+}
+
+.img2 {
+    background-image: url('https://images.dog.ceo/breeds/hound-walker/n02089867_2267.jpg');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.img3 {
+    background-image: url('https://images.dog.ceo/breeds/germanshepherd/n02106662_3953.jpg');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.ol{
+    text-align: left;
+
+}
+
+@media (min-width: 768px) { 
+    main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    }    
+    
+    .dog{
+        width: 50%;
+        background-color: #d1a252;
+        text-align: center;
+    }
+  
+
+}
+
+
+
