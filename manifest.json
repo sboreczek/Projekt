@@ -2,7 +2,7 @@
     "theme_color" : "#c66335",
     "background_color" : "#d1a252",
     "display" : "browser",
-    "scope" : "",
+    "scope" : "/",
     "start_url" : ".",
     "name" : "Szymon Boreczek Strona o psach",
     "short_name" : "Dog App",
